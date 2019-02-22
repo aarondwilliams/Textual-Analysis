@@ -1,0 +1,128 @@
+X     [[    44.    193.    116.     18.     48.    233.    341.     73.      6.        3.    250.     61.]
+NOUN   [    41. 154599.  13357.    241.   6098.  15673.  15094.  18936.      8.      539.  42206.   8766.]
+.      [     0.      0. 147561.      0.      2.      0.      2.      0.      0.        0.      0.      0.]
+ADP    [     0.    103.    158. 129940.  12058.    661.    230.     56.      0.     1320.    152.     88.]
+PRT    [     1.     45.     19.   1768.  25932.    207.     15.      8.     12.     1430.    355.     37.]
+CONJ   [     0.      6.      5.      1.      1.  37886.      5.     31.      0.      211.      4.      1.]
+NUM    [     0.    206.    524.      0.    346.   1191.   9601.   1998.      0.        0.    701.    307.]
+DET    [     0.      2.      3.   1983.      8.     77.      8. 134903.     10.       22.      0.      3.]
+PRON   [     0.     39.     10.   1779.     36.     19.     20.   1234.  46173.        0.      4.     20.]
+ADV    [     0.    349.    548.   2670.   2130.   1956.    593.    623.      3.    43326.   3625.    416.]
+ADJ    [     1.   5738.    827.    251.   2662.   3174.   2786.   4462.      0.     3668.  59042.   1110.]
+VERB   [     1.   7294.   3216.    226.   6662.   4517.   3169.   2890.      0.      158.   6234. 148383.]]
+ 
+ ['X', 'NOUN', '.', 'ADP', 'PRT', 'CONJ', 'NUM', 'DET', 'PRON', 'ADV', 'ADJ', 'VERB']
+ 
+[[    57.    545.     76.    185.      5.      4.      0.    367.     74.        5.      8.     60.]
+ [  6093. 203729.   6690.   5738.    930.    412.    311.  16901.  18154.      990.   2410.  13200.]
+ [     0.      2. 147561.      0.      0.      0.      0.      0.      1.        0.      0.      1.]
+ [  3289.    171.     70. 138066.    749.    151.     20.   1237.    103.      618.     21.    271.]
+ [  3821.    174.     28.   4716.  20680.      0.      0.     30.     30.      260.     31.     59.]
+ [    83.      5.      2.      9.      1.  37810.      0.     97.      3.      138.      1.      2.]
+ [   618.   3748.    257.    407.     11.     28.   8248.    916.    246.       15.     87.    293.]
+ [   549.      7.      2.    461.      0.     15.      2. 135364.    572.       45.      2.      0.]
+ [   229.    132.     11.    322.      0.      2.      0.    363.  48241.       16.      0.     18.]
+ [  3250.   2980.    247.   2057.    376.     63.      7.   1170.    649.    43173.   1449.    818.]
+ [  5613.   8912.   1900.   2346.    230.    134.    141.  14123.   1109.     2068.  45611.   1534.]
+ [  3921.  13790.    990.   8879.     91.     95.     46.   4974.    747.      328.    791. 148098.]]
+ 
+ orward Viterbi resulted in accuracy: 0.9591733725591993
+Bidirection Method resulted in accuracy: 0.9869054829684751
+Testing on belles_lettres...
+Forward Viterbi resulted in accuracy: 0.8252010445070943
+Bidirection Method resulted in accuracy: 0.8452592780884596
+Testing on editorial...
+Forward Viterbi resulted in accuracy: 0.8066034673073177
+Bidirection Method resulted in accuracy: 0.8216836569053958
+Testing on fiction...
+Forward Viterbi resulted in accuracy: 0.8737005022777713
+Bidirection Method resulted in accuracy: 0.887352528910174
+Testing on government...
+Forward Viterbi resulted in accuracy: 0.7681446724760044
+Bidirection Method resulted in accuracy: 0.7998345622316985
+Testing on hobbies...
+Forward Viterbi resulted in accuracy: 0.7930414718562147
+Bidirection Method resulted in accuracy: 0.8170623595846742
+Testing on humor...
+Forward Viterbi resulted in accuracy: 0.8481677805946071
+Bidirection Method resulted in accuracy: 0.8650380271952063
+Testing on learned...
+Forward Viterbi resulted in accuracy: 0.7836690710767066
+Bidirection Method resulted in accuracy: 0.8099104943701618
+Testing on lore...
+Forward Viterbi resulted in accuracy: 0.8203610186855729
+Bidirection Method resulted in accuracy: 0.84246457356821
+Testing on mystery...
+Forward Viterbi resulted in accuracy: 0.8788679179275481
+Bidirection Method resulted in accuracy: 0.8944882716157359
+Testing on news...
+Forward Viterbi resulted in accuracy: 0.7730274280486107
+Bidirection Method resulted in accuracy: 0.80467211647473
+Testing on religion...
+Forward Viterbi resulted in accuracy: 0.8249701769080433
+Bidirection Method resulted in accuracy: 0.8433208964694535
+Testing on reviews...
+Forward Viterbi resulted in accuracy: 0.7904137185534591
+Bidirection Method resulted in accuracy: 0.816160573899371
+Testing on romance...
+Forward Viterbi resulted in accuracy: 0.8749107423381223
+Bidirection Method resulted in accuracy: 0.8954185827311416
+Testing on science_fiction...
+Forward Viterbi resulted in accuracy: 0.8648237733241189
+Bidirection Method resulted in accuracy: 0.8753282653766413
+
+The Confusion Matrix for Viterbi:
+
+[[    44.    321.    817.     18.      3.      4.      0.    113.      6.        3.      6.     51.]
+ [    41. 185696.  47830.    241.     61.      1.    561.  26499.      8.      539.   1204.  12877.]
+ [     0.      0. 147564.      0.      0.      0.      0.      1.      0.        0.      0.      0.]
+ [     0.    226.    899. 129940.  11964.    148.      1.    168.      0.     1320.     40.     60.]
+ [     1.     61.    235.   1768.  25919.      0.      0.     21.     12.     1430.    337.     45.]
+ [     0.     10.     19.      1.      0.  37878.      0.     32.      0.      211.      0.      0.]
+ [     0.    759.   2337.      0.      0.      0.   8951.   2350.      0.        0.      0.    477.]
+ [     0.      6.     23.   1983.      1.     59.      2. 134910.     10.       22.      0.      3.]
+ [     0.     40.     48.   1779.      0.      0.      0.   1272.  46173.        0.      0.     22.]
+ [     0.    890.   3119.   2670.    334.     61.      0.   2450.      3.    43326.   2722.    664.]
+ [     0.  17006.   7126.    251.     10.      0.      2.   7243.      0.     3668.  45640.   2775.]
+ [     1.   9739.  12612.    226.      3.      0.      0.   9757.      0.      158.    400. 149854.]]
+ 
+The Confusion Matrix for Bidirectional:
+
+[[    57.    566.     65.    190.      2.      4.      0.    378.     54.        4.      7.     59.]
+ [  6088. 209460.   6074.   5644.    372.    148.    237.  17820.  12935.      630.   2001.  14149.]
+ [     0.      2. 147561.      1.      0.      0.      0.      0.      0.        0.      0.      1.]
+ [  3270.    166.     64. 137986.    793.    150.     18.   1288.    122.      610.     21.    278.]
+ [  3805.    177.     28.   4549.  20856.      0.      0.     30.     30.      252.     31.     71.]
+ [    83.      6.      2.      9.      1.  37810.      0.     97.      0.      138.      1.      4.]
+ [   618.   3752.    233.    416.      7.     20.   8019.   1148.    186.       10.    161.    304.]
+ [   545.      6.      2.    441.      1.     14.      2. 135391.    571.       43.      2.      1.]
+ [   230.    138.     12.    303.      0.      1.      0.    373.  48242.       17.      0.     18.]
+ [  3262.   3124.    247.   2032.    263.     41.      7.   1194.    575.    42950.   1539.   1005.]
+ [  5518.   9282.   1425.   2324.    182.    104.     36.  14899.   1161.     1969.  45310.   1511.]
+ [  3907.  14029.    931.   8268.     53.     49.     20.   5219.    665.      204.    682. 148723.]]
+ 
+ 
+Accuracy of 'X' misguess on Viterbi: 0.49425287356321834
+Accuracy of 'X' misguess on Bidirection: 0.9979184165358069
+Accuracy of 'NOUN' misguess on Viterbi: 0.1353083062480792
+Accuracy of 'NOUN' misguess on Bidirection: 0.12981703973278824
+Accuracy of '.' misguess on Viterbi: 0.33717530061222933
+Accuracy of '.' misguess on Bidirection: 0.05798498506166849
+Accuracy of 'ADP' misguess on Viterbi: 0.06435190852336958
+Accuracy of 'ADP' misguess on Bidirection: 0.1490907296978966
+Accuracy of 'PRT' misguess on Viterbi: 0.32317534926230573
+Accuracy of 'PRT' misguess on Bidirection: 0.07430093209054589
+Accuracy of 'CONJ' misguess on Viterbi: 0.00715577573327042
+Accuracy of 'CONJ' misguess on Bidirection: 0.013849404032237
+Accuracy of 'NUM' misguess on Viterbi: 0.059472522853840526
+Accuracy of 'NUM' misguess on Bidirection: 0.03837390574409405
+Accuracy of 'DET' misguess on Viterbi: 0.2700307332698467
+Accuracy of 'DET' misguess on Bidirection: 0.2386792399781823
+Accuracy of 'PRON' misguess on Viterbi: 0.0008439366398338422
+Accuracy of 'PRON' misguess on Bidirection: 0.2525371469298585
+Accuracy of 'ADV' misguess on Viterbi: 0.145055942538035
+Accuracy of 'ADV' misguess on Bidirection: 0.08279411450658813
+Accuracy of 'ADJ' misguess on Viterbi: 0.0935271802816342
+Accuracy of 'ADJ' misguess on Bidirection: 0.08933775499949759
+Accuracy of 'VERB' misguess on Viterbi: 0.10174551034598511
+Accuracy of 'VERB' misguess on Bidirection: 0.10474705641568949
